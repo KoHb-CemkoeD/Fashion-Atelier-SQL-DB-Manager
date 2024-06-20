@@ -80,7 +80,7 @@ Main form. Generating reports by parameters
 
 The class contains a constructor that loads the visual form from a file, connects the controls to the appropriate processing functions. The class also contains methods for connecting, loading the database; displaying and updating the data of the current table; methods for tracking and responding to user actions when selecting menu items, tables, query types, and reports. 
 
-## Reports Creationg
+## Reports Creating
 Implemented report generation in Microsoft Word, Excel, and PDF formats.
 
 ### Report for the period
