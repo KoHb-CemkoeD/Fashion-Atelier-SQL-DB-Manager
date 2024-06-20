@@ -107,6 +107,10 @@ Contents of the generated report on product models in MS Excel format
 
 ![0](https://github.com/KoHb-CemkoeD/Fashion-Atelier-Manager/assets/32577543/38d2066a-9055-48ef-bac1-dcfac897a091)
 
+### View query execution statistics 
+
+![0](https://github.com/KoHb-CemkoeD/Fashion-Atelier-Manager/assets/32577543/2ca754c7-e4b8-4426-9a42-0691ad2c3350)
+
 
 ## Implementation Details
 - Programming Language: Python
