@@ -1,5 +1,5 @@
 # Fashion-Atelier-Manager
-Project for developing a software system designed for managing the database of the "Fashion Atelier" enterprise. The system will include data about available fabrics, a list of cutters, existing clothing models, ready-to-issue products, and current orders.
+Project for developing a software system designed for managing the MS ACCESS database of the "Fashion Atelier" enterprise using SQL queries. The system will include data about available fabrics, a list of cutters, existing clothing models, ready-to-issue products, and current orders.
 
 ## Objective
 The objective is to create software for data management at the "Fashion Atelier" enterprise, including data management for available fabrics, cutters, fabric purchases, clothing models, finished products, and orders. This software is intended for use by employees of the "Fashion Atelier" to quickly and conveniently input, search, and process data related to fabrics, cutters, clothing models, finished products, and orders, including user identification capabilities.
@@ -8,11 +8,12 @@ The objective is to create software for data management at the "Fashion Atelier"
 Utilized set theories and graphs to formalize and optimize data processing processes within the enterprise system.
 Based on the input data on the number of tissues, their types, and the list of possible tissue operations, it is necessary to form a formalized data structure of the organization, including a set of possible tissue processing operations.
 
-![image](https://github.com/KoHb-CemkoeD/Fashion-Atelier-Manager/assets/32577543/12ad07d3-ab54-48d5-8026-8c1b347979df)
+<img width="371" height="121" alt="image" src="https://github.com/user-attachments/assets/65eca8ad-c19e-4b14-8623-e4a04c68faba" />
+
 
 Formula below shows the mathematical model of tissue processing - MOI in the electronic data management system in tuple form:
 
-![image](https://github.com/KoHb-CemkoeD/Fashion-Atelier-Manager/assets/32577543/3f12d4b3-138d-446b-a3dc-189234b5af06)
+<img width="129" height="20" alt="image" src="https://github.com/user-attachments/assets/546e13f6-16ea-47b3-8d7d-4a8ca9caa5b1" />
 
 where S is the structure of the organization's electronic data circulation, which will be understood as a formalized representation in the form of a tuple model of the set of fabric circulation objects U that change their state as a result of operations O by a set of cutters P. 
 
@@ -21,11 +22,11 @@ Formulated a structured data organization reflecting fabric processing operation
 
 After the system initialization, the program is in the standby mode until the user performs any action, namely: adding, deleting, editing, forming a sample of records. The figure shows a functional diagram that clearly describes the behavior of the system while the program is running.
 
-![image](https://github.com/KoHb-CemkoeD/Fashion-Atelier-Manager/assets/32577543/75a4d6e2-5c19-41b0-9996-8d1b26b84122)
+<img width="379" height="261" alt="image" src="https://github.com/user-attachments/assets/c0e83fa2-dc25-4ef7-a566-38fb4c95cae0" />
 
 The block diagram of the "Fashion Atelier" software complex, which demonstrates the interaction of the functions of the main program, is shown in the figure.
 
-![image](https://github.com/KoHb-CemkoeD/Fashion-Atelier-Manager/assets/32577543/ae48f1eb-ce5e-402c-b5c2-38f5bb1642d4)
+<img width="353" height="213" alt="image" src="https://github.com/user-attachments/assets/9b73d003-f75f-475d-99d8-68260c9eb52f" />
 
 
 ## Class Description
@@ -54,7 +55,7 @@ Additionally, there is an exception handling class to handle errors when setting
 ## DB Description. UML Scheme
 The information in DataBase include fabrics, cutters, purchases, models, finished products, and orders. Each table is described with its corresponding fields and data types.
 
-![0](https://github.com/KoHb-CemkoeD/Fashion-Atelier-Manager/assets/32577543/3f88f0d8-29f3-44a0-806d-d19bc2ef3ea8)
+<img width="584" height="229" alt="image" src="https://github.com/user-attachments/assets/7016b71a-8557-4865-a7fa-03e55b858dd0" />
 
 - The fabric information table is used to keep track of the available fabrics in the atelier. It includes fields such as article, type, price per meter, width, remains, and picture.
 
@@ -71,11 +72,11 @@ The information in DataBase include fabrics, cutters, purchases, models, finishe
 ## User Interface
 Utilized visual forms and Qt Designer for UI layout and design. The main widget of the user interface is the "MainWindow" class, which creates the main form of the "Fashion Atelier" application. The form contains the main menu, tabs with tables for displaying information, fields for entering data, pop-up lists, radio, and regular buttons for interacting with the user.
 
-![0](https://github.com/KoHb-CemkoeD/Fashion-Atelier-Manager/assets/32577543/3f137894-1592-40fc-96f9-7eca9c058c70)
+<img width="554" height="329" alt="image" src="https://github.com/user-attachments/assets/57e7630b-abdc-4a3e-852a-90e5e7263113" />
 
 Main form. Generating reports by parameters
 
-![0](https://github.com/KoHb-CemkoeD/Fashion-Atelier-Manager/assets/32577543/940fc447-5ab9-496f-8b57-2110e6c65e34)
+<img width="610" height="359" alt="image" src="https://github.com/user-attachments/assets/9efd8237-69d7-4cd1-8ae9-c782e608f596" />
 
 
 The class contains a constructor that loads the visual form from a file, connects the controls to the appropriate processing functions. The class also contains methods for connecting, loading the database; displaying and updating the data of the current table; methods for tracking and responding to user actions when selecting menu items, tables, query types, and reports. 
@@ -89,7 +90,7 @@ Implemented report generation in Microsoft Word, Excel, and PDF formats.
 
 Contents of the generated order report for the period in PDF format
 
-![0](https://github.com/KoHb-CemkoeD/Fashion-Atelier-Manager/assets/32577543/c43f7dc0-bd8e-43f0-811f-00d45ed08951)
+<img width="584" height="454" alt="image" src="https://github.com/user-attachments/assets/3ae48a80-568e-48e2-9132-6a49504e1f70" />
 
 ### Reports by customer
 
@@ -97,7 +98,7 @@ Contents of the generated order report for the period in PDF format
 
 Contents of the finished goods report by customer in MS Word format 
 
-![0](https://github.com/KoHb-CemkoeD/Fashion-Atelier-Manager/assets/32577543/07c0746c-7e4d-483b-a8f4-780b540969fa)
+<img width="491" height="332" alt="image" src="https://github.com/user-attachments/assets/309efbc0-d26c-456a-a606-f538d67cb589" />
 
 ### Reports on product models 
 
@@ -105,7 +106,7 @@ Contents of the finished goods report by customer in MS Word format
  
 Contents of the generated report on product models in MS Excel format 
 
-![0](https://github.com/KoHb-CemkoeD/Fashion-Atelier-Manager/assets/32577543/38d2066a-9055-48ef-bac1-dcfac897a091)
+<img width="397" height="261" alt="image" src="https://github.com/user-attachments/assets/36b37120-9df8-48ba-a736-78e43e479aee" />
 
 ### View query execution statistics 
 
@@ -119,6 +120,9 @@ Contents of the generated report on product models in MS Excel format
 
 ## User Guide
 Included a user guide document ("user_guide.doc") within the program folder, providing instructions on running the software, required input data format, and operational guidelines.
+
+<img width="343" height="552" alt="image" src="https://github.com/user-attachments/assets/6a1cdefe-1a6f-4da2-a2de-b84facbf8df9" />
+
 
 ## Conclusion
 The project successfully developed a software system for managing data related to fabrics, cutters, fabric purchases, clothing models, finished products, and orders at the "Fashion Atelier." By leveraging database capabilities, the system ensures reliable data storage and convenient data access, demonstrating the versatility and effectiveness of database functionalities in system description and management.
