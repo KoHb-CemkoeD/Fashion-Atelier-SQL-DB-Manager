@@ -1,4 +1,4 @@
-# Fashion-Atelier-Manager
+# Fashion-Atelier-SQL-DB-Manager
 Project for developing a software system designed for managing the MS ACCESS database of the "Fashion Atelier" enterprise using SQL queries. The system includes data about available fabrics, a list of cutters, existing clothing models, ready-to-issue products, and current orders.
 
 ## Objective
