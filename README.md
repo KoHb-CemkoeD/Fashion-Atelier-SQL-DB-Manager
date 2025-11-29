@@ -111,7 +111,9 @@ Contents of the generated report on product models in MS Excel format
 ### View query execution statistics 
 
 ![0](https://github.com/KoHb-CemkoeD/Fashion-Atelier-Manager/assets/32577543/2ca754c7-e4b8-4426-9a42-0691ad2c3350)
-<img width="861" height="809" alt="image" src="https://github.com/user-attachments/assets/5ccee082-00c6-479e-8899-474da20d9231" />
+<img width="1402" height="842" alt="image" src="https://github.com/user-attachments/assets/9a886a1f-100d-41cb-9273-f416a0f85f3f" />
+
+
 
 
 ## Implementation Details
